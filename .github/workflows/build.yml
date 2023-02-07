@@ -1,8 +1,4 @@
 name: Build NRD SDK
-on:
-  push:
-    branches:
-      - master
 jobs:
   Build-Windows:
     runs-on: windows-latest
